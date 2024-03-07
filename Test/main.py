@@ -7,6 +7,9 @@ btn=st.button("Login")
 if btn:
     if email=="archit@gmail.com" and password=="235656":
         st.success("Done")
+        st.title('Welcome :sunglasses:')
         st.balloons()
     else:
         st.error("Login Failed")
+        st.write("Attempts!:")
+        st.write(attempt)

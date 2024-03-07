@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("Login Page")
+st.header('Login Page', divider='rainbow')
 st.title(":red[Please Login]:")
 email=st.text_input("Enter Email:")
 password=st.text_input("Enter Password:")

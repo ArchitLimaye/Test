@@ -1,4 +1,6 @@
 import streamlit as st
+st.title("Login Page")
+st.title(":red[Please Login]:")
 email=st.text_input("Enter Email:")
 password=st.text_input("Enter Password:")
 btn=st.button("Login")
